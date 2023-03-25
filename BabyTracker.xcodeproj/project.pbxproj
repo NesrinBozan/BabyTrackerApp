@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1169F229CBD84000C0957B /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = CA1169F129CBD84000C0957B /* ReceiptParser */; };
+		CA1169F429CBD84000C0957B /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CA1169F329CBD84000C0957B /* RevenueCat */; };
+		CA1169F729CBDA9A00C0957B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1169F629CBDA9A00C0957B /* StoreKit.framework */; };
+		CA1169FC29CC47C000C0957B /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = CA1169FB29CC47C000C0957B /* StoreKitTestCertificate.cer */; };
+		CA116A0929CC549900C0957B /* CalenderCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A0829CC549900C0957B /* CalenderCustomButton.swift */; };
+		CA116A0B29CC554300C0957B /* DiaperCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A0A29CC554300C0957B /* DiaperCustomButton.swift */; };
+		CA116A0D29CC55D500C0957B /* SettingCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A0C29CC55D500C0957B /* SettingCustomButton.swift */; };
+		CA116A0F29CC589400C0957B /* subPostViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A0E29CC589400C0957B /* subPostViewCustom.swift */; };
+		CA116A1129CC58D400C0957B /* InAppCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A1029CC58D400C0957B /* InAppCustomButton.swift */; };
+		CA116A1329CC639D00C0957B /* LoginCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A1229CC639C00C0957B /* LoginCustomButton.swift */; };
+		CA116A1529CC911A00C0957B /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A1429CC911A00C0957B /* CustomColor.swift */; };
+		CA116A1829CD687300C0957B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CA116A1729CD687300C0957B /* Lottie */; };
+		CA116A1A29CD756700C0957B /* loading-gray.json in Resources */ = {isa = PBXBuildFile; fileRef = CA116A1929CD756700C0957B /* loading-gray.json */; };
+		CA116A1D29CDBA8500C0957B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA116A1C29CDBA8500C0957B /* CoreDataManager.swift */; };
 		CA89FADF29C952270070F9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FADE29C952270070F9F5 /* AppDelegate.swift */; };
 		CA89FAE129C952270070F9F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAE029C952270070F9F5 /* SceneDelegate.swift */; };
 		CA89FAE329C952270070F9F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAE229C952270070F9F5 /* ViewController.swift */; };
@@ -14,9 +28,34 @@
 		CA89FAE929C952270070F9F5 /* BabyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAE729C952270070F9F5 /* BabyTracker.xcdatamodeld */; };
 		CA89FAEB29C952290070F9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA89FAEA29C952290070F9F5 /* Assets.xcassets */; };
 		CA89FAEE29C952290070F9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA89FAEC29C952290070F9F5 /* LaunchScreen.storyboard */; };
+		CA89FAF629C9529D0070F9F5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAF529C9529D0070F9F5 /* OnboardingViewController.swift */; };
+		CA89FAF929C952BE0070F9F5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA89FAF829C952BE0070F9F5 /* SnapKit */; };
+		CA89FAFB29C9531D0070F9F5 /* InAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAFA29C9531D0070F9F5 /* InAppViewController.swift */; };
+		CA89FAFD29C953950070F9F5 /* LoginInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAFC29C953950070F9F5 /* LoginInformationViewController.swift */; };
+		CA89FAFF29C953CF0070F9F5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FAFE29C953CF0070F9F5 /* HomePageViewController.swift */; };
+		CA89FB0129C954040070F9F5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0029C954040070F9F5 /* SettingsViewController.swift */; };
+		CA89FB0329C954360070F9F5 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0229C954360070F9F5 /* CalenderViewController.swift */; };
+		CA89FB0529C954540070F9F5 /* DiaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0429C954540070F9F5 /* DiaperViewController.swift */; };
+		CA89FB0729C954740070F9F5 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0629C954740070F9F5 /* EditViewController.swift */; };
+		CA89FB0929C954A90070F9F5 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0829C954A90070F9F5 /* CustomViewController.swift */; };
+		CA89FB0B29C954C30070F9F5 /* FeedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0A29C954C30070F9F5 /* FeedingViewController.swift */; };
+		CA89FB0D29C954D40070F9F5 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0C29C954D40070F9F5 /* SleepViewController.swift */; };
+		CA89FB0F29C955160070F9F5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89FB0E29C955160070F9F5 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA1169F629CBDA9A00C0957B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CA1169F829CBE7FE00C0957B /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		CA1169FB29CC47C000C0957B /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
+		CA116A0829CC549900C0957B /* CalenderCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCustomButton.swift; sourceTree = "<group>"; };
+		CA116A0A29CC554300C0957B /* DiaperCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperCustomButton.swift; sourceTree = "<group>"; };
+		CA116A0C29CC55D500C0957B /* SettingCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCustomButton.swift; sourceTree = "<group>"; };
+		CA116A0E29CC589400C0957B /* subPostViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subPostViewCustom.swift; sourceTree = "<group>"; };
+		CA116A1029CC58D400C0957B /* InAppCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppCustomButton.swift; sourceTree = "<group>"; };
+		CA116A1229CC639C00C0957B /* LoginCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomButton.swift; sourceTree = "<group>"; };
+		CA116A1429CC911A00C0957B /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		CA116A1929CD756700C0957B /* loading-gray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-gray.json"; sourceTree = "<group>"; };
+		CA116A1C29CDBA8500C0957B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CA89FADB29C952270070F9F5 /* BabyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA89FADE29C952270070F9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA89FAE029C952270070F9F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +65,18 @@
 		CA89FAEA29C952290070F9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA89FAED29C952290070F9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA89FAEF29C952290070F9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA89FAF529C9529D0070F9F5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CA89FAFA29C9531D0070F9F5 /* InAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppViewController.swift; sourceTree = "<group>"; };
+		CA89FAFC29C953950070F9F5 /* LoginInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInformationViewController.swift; sourceTree = "<group>"; };
+		CA89FAFE29C953CF0070F9F5 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		CA89FB0029C954040070F9F5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CA89FB0229C954360070F9F5 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		CA89FB0429C954540070F9F5 /* DiaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperViewController.swift; sourceTree = "<group>"; };
+		CA89FB0629C954740070F9F5 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		CA89FB0829C954A90070F9F5 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		CA89FB0A29C954C30070F9F5 /* FeedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingViewController.swift; sourceTree = "<group>"; };
+		CA89FB0C29C954D40070F9F5 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		CA89FB0E29C955160070F9F5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +84,134 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA116A1829CD687300C0957B /* Lottie in Frameworks */,
+				CA1169F229CBD84000C0957B /* ReceiptParser in Frameworks */,
+				CA89FAF929C952BE0070F9F5 /* SnapKit in Frameworks */,
+				CA1169F429CBD84000C0957B /* RevenueCat in Frameworks */,
+				CA1169F729CBDA9A00C0957B /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1169F529CBDA9A00C0957B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1169F629CBDA9A00C0957B /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1169FD29CC51DD00C0957B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FAF529C9529D0070F9F5 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CA1169FE29CC520C00C0957B /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FAFA29C9531D0070F9F5 /* InAppViewController.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		CA1169FF29CC521E00C0957B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FAFE29C953CF0070F9F5 /* HomePageViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		CA116A0029CC523400C0957B /* LoginInformation */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FAFC29C953950070F9F5 /* LoginInformationViewController.swift */,
+			);
+			path = LoginInformation;
+			sourceTree = "<group>";
+		};
+		CA116A0129CC524900C0957B /* SettingsPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0029C954040070F9F5 /* SettingsViewController.swift */,
+			);
+			path = SettingsPage;
+			sourceTree = "<group>";
+		};
+		CA116A0229CC526200C0957B /* DiaperPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0429C954540070F9F5 /* DiaperViewController.swift */,
+			);
+			path = DiaperPage;
+			sourceTree = "<group>";
+		};
+		CA116A0329CC526F00C0957B /* FeedingPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0A29C954C30070F9F5 /* FeedingViewController.swift */,
+			);
+			path = FeedingPage;
+			sourceTree = "<group>";
+		};
+		CA116A0429CC527A00C0957B /* SleepPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0C29C954D40070F9F5 /* SleepViewController.swift */,
+			);
+			path = SleepPage;
+			sourceTree = "<group>";
+		};
+		CA116A0529CC528300C0957B /* CalenderPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0229C954360070F9F5 /* CalenderViewController.swift */,
+			);
+			path = CalenderPage;
+			sourceTree = "<group>";
+		};
+		CA116A0629CC52B500C0957B /* EditPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA89FB0629C954740070F9F5 /* EditViewController.swift */,
+			);
+			path = EditPage;
+			sourceTree = "<group>";
+		};
+		CA116A0729CC546100C0957B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				CA116A0829CC549900C0957B /* CalenderCustomButton.swift */,
+				CA116A0A29CC554300C0957B /* DiaperCustomButton.swift */,
+				CA116A0C29CC55D500C0957B /* SettingCustomButton.swift */,
+				CA116A0E29CC589400C0957B /* subPostViewCustom.swift */,
+				CA116A1029CC58D400C0957B /* InAppCustomButton.swift */,
+				CA89FB0E29C955160070F9F5 /* CustomTableViewCell.swift */,
+				CA116A1229CC639C00C0957B /* LoginCustomButton.swift */,
+				CA116A1429CC911A00C0957B /* CustomColor.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		CA116A1B29CDBA7D00C0957B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CA116A1C29CDBA8500C0957B /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		CA89FAD229C952270070F9F5 = {
 			isa = PBXGroup;
 			children = (
 				CA89FADD29C952270070F9F5 /* BabyTracker */,
 				CA89FADC29C952270070F9F5 /* Products */,
+				CA1169F529CBDA9A00C0957B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +226,40 @@
 		CA89FADD29C952270070F9F5 /* BabyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				CA116A1B29CDBA7D00C0957B /* Manager */,
+				CA116A0729CC546100C0957B /* Custom */,
+				CA116A0629CC52B500C0957B /* EditPage */,
+				CA116A0529CC528300C0957B /* CalenderPage */,
+				CA116A0429CC527A00C0957B /* SleepPage */,
+				CA116A0329CC526F00C0957B /* FeedingPage */,
+				CA116A0229CC526200C0957B /* DiaperPage */,
+				CA116A0129CC524900C0957B /* SettingsPage */,
+				CA116A0029CC523400C0957B /* LoginInformation */,
+				CA1169FF29CC521E00C0957B /* HomePage */,
+				CA1169FE29CC520C00C0957B /* InApp */,
+				CA1169FD29CC51DD00C0957B /* Onboarding */,
+				CA89FB1029C98EE50070F9F5 /* Model */,
 				CA89FADE29C952270070F9F5 /* AppDelegate.swift */,
 				CA89FAE029C952270070F9F5 /* SceneDelegate.swift */,
 				CA89FAE229C952270070F9F5 /* ViewController.swift */,
+				CA116A1929CD756700C0957B /* loading-gray.json */,
 				CA89FAE429C952270070F9F5 /* Main.storyboard */,
 				CA89FAEA29C952290070F9F5 /* Assets.xcassets */,
 				CA89FAEC29C952290070F9F5 /* LaunchScreen.storyboard */,
 				CA89FAEF29C952290070F9F5 /* Info.plist */,
 				CA89FAE729C952270070F9F5 /* BabyTracker.xcdatamodeld */,
+				CA89FB0829C954A90070F9F5 /* CustomViewController.swift */,
+				CA1169F829CBE7FE00C0957B /* Configuration.storekit */,
+				CA1169FB29CC47C000C0957B /* StoreKitTestCertificate.cer */,
 			);
 			path = BabyTracker;
+			sourceTree = "<group>";
+		};
+		CA89FB1029C98EE50070F9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +278,12 @@
 			dependencies = (
 			);
 			name = BabyTracker;
+			packageProductDependencies = (
+				CA89FAF829C952BE0070F9F5 /* SnapKit */,
+				CA1169F129CBD84000C0957B /* ReceiptParser */,
+				CA1169F329CBD84000C0957B /* RevenueCat */,
+				CA116A1729CD687300C0957B /* Lottie */,
+			);
 			productName = BabyTracker;
 			productReference = CA89FADB29C952270070F9F5 /* BabyTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +312,11 @@
 				Base,
 			);
 			mainGroup = CA89FAD229C952270070F9F5;
+			packageReferences = (
+				CA89FAF729C952BE0070F9F5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CA1169F029CBD84000C0957B /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				CA116A1629CD687300C0957B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = CA89FADC29C952270070F9F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +334,8 @@
 				CA89FAEE29C952290070F9F5 /* LaunchScreen.storyboard in Resources */,
 				CA89FAEB29C952290070F9F5 /* Assets.xcassets in Resources */,
 				CA89FAE629C952270070F9F5 /* Main.storyboard in Resources */,
+				CA1169FC29CC47C000C0957B /* StoreKitTestCertificate.cer in Resources */,
+				CA116A1A29CD756700C0957B /* loading-gray.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +346,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA116A0F29CC589400C0957B /* subPostViewCustom.swift in Sources */,
+				CA89FB0329C954360070F9F5 /* CalenderViewController.swift in Sources */,
+				CA89FB0529C954540070F9F5 /* DiaperViewController.swift in Sources */,
+				CA89FB0F29C955160070F9F5 /* CustomTableViewCell.swift in Sources */,
+				CA116A0B29CC554300C0957B /* DiaperCustomButton.swift in Sources */,
 				CA89FAE329C952270070F9F5 /* ViewController.swift in Sources */,
+				CA116A1D29CDBA8500C0957B /* CoreDataManager.swift in Sources */,
 				CA89FADF29C952270070F9F5 /* AppDelegate.swift in Sources */,
+				CA89FAF629C9529D0070F9F5 /* OnboardingViewController.swift in Sources */,
+				CA116A1129CC58D400C0957B /* InAppCustomButton.swift in Sources */,
+				CA89FB0B29C954C30070F9F5 /* FeedingViewController.swift in Sources */,
 				CA89FAE929C952270070F9F5 /* BabyTracker.xcdatamodeld in Sources */,
+				CA89FB0929C954A90070F9F5 /* CustomViewController.swift in Sources */,
+				CA89FAFF29C953CF0070F9F5 /* HomePageViewController.swift in Sources */,
+				CA116A0D29CC55D500C0957B /* SettingCustomButton.swift in Sources */,
+				CA116A1329CC639D00C0957B /* LoginCustomButton.swift in Sources */,
 				CA89FAE129C952270070F9F5 /* SceneDelegate.swift in Sources */,
+				CA89FB0729C954740070F9F5 /* EditViewController.swift in Sources */,
+				CA89FAFD29C953950070F9F5 /* LoginInformationViewController.swift in Sources */,
+				CA89FB0D29C954D40070F9F5 /* SleepViewController.swift in Sources */,
+				CA89FAFB29C9531D0070F9F5 /* InAppViewController.swift in Sources */,
+				CA116A1529CC911A00C0957B /* CustomColor.swift in Sources */,
+				CA116A0929CC549900C0957B /* CalenderCustomButton.swift in Sources */,
+				CA89FB0129C954040070F9F5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesrinnbozan.BabyTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonapps.education.SwiftyStoreKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesrinnbozan.BabyTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonapps.education.SwiftyStoreKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,6 +585,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA1169F029CBD84000C0957B /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		CA116A1629CD687300C0957B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		CA89FAF729C952BE0070F9F5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA1169F129CBD84000C0957B /* ReceiptParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA1169F029CBD84000C0957B /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = ReceiptParser;
+		};
+		CA1169F329CBD84000C0957B /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA1169F029CBD84000C0957B /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		CA116A1729CD687300C0957B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA116A1629CD687300C0957B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		CA89FAF829C952BE0070F9F5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA89FAF729C952BE0070F9F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CA89FAE729C952270070F9F5 /* BabyTracker.xcdatamodeld */ = {
